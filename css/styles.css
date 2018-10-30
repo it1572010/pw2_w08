@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Sep 5, 2018, 7:37:48 AM
+    Author     : master
+*/
+
+body {
+    font-family: "Calibri"
+}
+
+form {
+    width: 100%
+}
+
+.page {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.form-input {
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width: 99%;
+}
+
+.form-round {
+    border-radius:4px
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-default {
+    background-color: #0066ff;
+}
+
+.button-normal {
+    background-color: #4CAF50;
+}
+
+.button-delete {
+    background-color: #ff3333;
+}
+
+.error_msg {
+    background-color: #ffcccc;
+}
+
+.thumbnail {
+    max-width: 90px;
+}
+
+nav ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: grey;
+}
